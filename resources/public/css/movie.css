@@ -1,0 +1,49 @@
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+}
+.top {
+    margin-bottom: 15px;
+}
+
+#logoutBtnHolder {
+    width: 67px;
+    height: 30px;
+    background-color: #33FF00;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 5px solid #009900;
+    padding: 5px;
+    opacity: 0.6;
+}
+
+.buttondiv {
+    margin-top: 10px;
+}
+.messagebox{
+    width:100px;
+    border:1px solid #c93;
+    background:#ffc;
+    padding:3px;
+}
+.messageboxok{
+    width:auto;
+    border:1px solid #349534;
+    background:#C9FFCA;
+    padding:3px;
+    font-weight:bold;
+    color:#008000;
+}
+.messageboxerror{
+    width:auto;
+    border:1px solid #CC0000;
+    background:#F7CBCA;
+    padding:3px;
+    font-weight:bold;
+    color:#CC0000;
+}
+
+.route {
+    visibility: hidden;
+}
