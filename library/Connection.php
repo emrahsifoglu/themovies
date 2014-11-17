@@ -56,7 +56,6 @@ class Connection {
 
 	public static function Select($column, $from, $condition){
 		self::OpenConnection();
-
 		$query = "SELECT {$column} FROM {$from}";
 
 		if (!empty($condition))	$query = $query." WHERE ".$condition;
