@@ -1,5 +1,6 @@
 <?php
-class Session{
+
+class Session {
 	
 	private static $isSessionStart = false;
 	
@@ -27,4 +28,3 @@ class Session{
 		self::$isSessionStart = false;
 	}
 }
-?>
